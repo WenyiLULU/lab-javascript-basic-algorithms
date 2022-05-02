@@ -7,7 +7,7 @@ let hacker1 = "Wenyi";
 console.log(`"The driver's name is ${hacker1}"`);
 
 //1.3 Create a variable `hacker2` with the navigator's name.
-let hacker2 = "Jillian"
+let hacker2 = "Ironhack"
 
 //1.4 Print `"The navigator's name is YYYY"`.
 console.log(`"The navigator's name is ${hacker2}"`);
@@ -44,4 +44,12 @@ console.log(characters2);
 //- The driver's name goes first.
 //- Yo, the navigator goes first definitely.
 //- What?! You both have the same name?
-console.log(hacker1<hacker2);
+if (hacker1 < hacker2) {
+    console.log("The driver's name goes first.");
+} else if (hacker1 > hacker2) {
+    console.log("Yo, the navigator goes first definitely.");
+} else {
+    console.log("What?! You both have the same name?");
+};
+
+
